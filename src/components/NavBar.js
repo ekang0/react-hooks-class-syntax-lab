@@ -1,5 +1,17 @@
 import React from "react";
 
+class NavBar extends React.Component {
+  render() {
+    return (
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+      </nav>
+    );
+  }
+};
+
+/*
 function NavBar() {
   return (
     <nav>
@@ -8,5 +20,6 @@ function NavBar() {
     </nav>
   );
 }
+*/
 
 export default NavBar;
